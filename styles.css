@@ -12,14 +12,43 @@
   color: hsl(228, 45%, 44%);
 }
 
-.qr-component * {
-  border-radius: 15px;
+body {
+  background-color: hsl(212, 45%, 89%);
 }
 
 .qr-component {
-  background-color: whitesmoke;
+  width: 400px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 100px auto;
 }
 
-body {
-  background-color: lightblue;
+.qr-component img {
+  width: 300px;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.qr-component p {
+  padding: 0 20px;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  margin: 0 auto; /* Centers horizontally */
+  display: block;
+}
+
+.qr-component .title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+}
+
+.qr-component .description {
+  font-weight: 400;
+  line-height: 1.5;
+  color: hsl(216, 15%, 48%);
+  text-align: center;
 }
